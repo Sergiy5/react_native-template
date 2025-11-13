@@ -164,9 +164,6 @@ ios/.xcode.env.local
 android/build/
 android/app/build/
 android/.gradle/
-android/gradle/
-android/gradlew
-android/gradlew.bat
 android/local.properties
 *.apk
 *.aab
