@@ -4,6 +4,7 @@ import { Container } from '@/components/ui/Container';
 import { SafeAreaContainer } from '@/components/ui/SafeAreaContainer';
 import { ActivityIndicator, ScrollView, Text, View } from 'react-native';
 import { CustomBtn } from '@/components/ui/CustomBtn';
+import { Header } from '@/components/common/header/Header';
 
 cssInterop(LinearGradient, {
   className: {
@@ -19,6 +20,7 @@ const HomeScreen: React.FC = () => {
     <SafeAreaContainer className="relative">
       <ScrollView className="flex flex-col w-full">
         <Container className="w-full">
+          <Header />
           <View>
             <Text>Section</Text>Section
           </View>
