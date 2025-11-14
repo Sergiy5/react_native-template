@@ -1,5 +1,5 @@
 import { SafeAreaContainer } from "../components/ui/SafeAreaContainer";
-import { Text } from "react-native";
+import { Text, View } from "react-native";
 import React, { useState } from 'react';
 import { Calendar, LocaleConfig } from 'react-native-calendars';
 

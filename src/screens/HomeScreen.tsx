@@ -19,7 +19,7 @@ const HomeScreen: React.FC = () => {
         <Container className="w-full">
           <Header />
           <View>
-            <Text>Section</Text>Section
+            <Text>Section</Text>
           </View>
           <CustomBtn onPress={() => {}} label="Button" />
         </Container>
